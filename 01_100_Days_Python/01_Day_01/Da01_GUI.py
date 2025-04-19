@@ -33,7 +33,7 @@ def calculate_tip():
 
         # Calculation
         band_name = petname+" "+cityname
-        result_label.config(text=f"Your Band Name is  {band_name}")
+        result_label.config(text=f"Your Band Name is  :->{band_name}")
 
     except ValueError:
         messagebox.showerror("Invalid Input", "Please enter valid numbers only!")
