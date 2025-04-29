@@ -38,15 +38,3 @@ tk.Button(root, text="Check", command=whopay, font=("Arial", 12)).pack(pady=10)
 # Start the GUI Loop
 root.mainloop()
 
-# Start the GUI Loop
-# root.mainloop()
-
-
-
-# import random
-
-
-# friends = input("Enter the friends name with commas  :\n").split(',')
-# list_friends = list(friends)
-# print(list_friends)
-# print(random.choice(list_friends))
